@@ -1,0 +1,69 @@
+:root {
+    font-size: 12pt;
+    font-family: "Courgette", cursive;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e37d91;
+    height: 100vh;
+}
+
+.foto-perfil {
+    width: 9rem;
+    height: 9rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 0.3rem solid white;
+
+}
+
+.perfil {
+    background-color: #ea5370;
+    justify-content: space-around;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 1rem 1rem 0 0;
+
+}
+
+
+.tarjeta {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 1.5rem;
+}
+
+.estadisticas {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 0 0 1rem 1rem;
+    height: 6rem;
+    align-items: center;
+}
+
+.estadisticas p,
+.datos-perfil p {
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.datos-perfil span {
+    color: white;
+}
